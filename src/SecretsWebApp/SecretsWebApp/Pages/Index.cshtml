@@ -1,0 +1,14 @@
+﻿@page
+@model IndexModel
+
+<br />
+
+<div class="row">
+    <div class="col-sm-12">
+        This is my secret : @Model.SecretValue
+    </div>
+
+    <div class="col-sm-12">
+        This is my secret via configuration : @Model.Configuration["MySecret"]
+    </div>
+</div>
