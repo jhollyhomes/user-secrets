@@ -1,3 +1,4 @@
+
 # user-secrets
 
 ## Demo on user secrets
@@ -8,8 +9,12 @@ https://docs.microsoft.com/en-us/aspnet/core/security/key-vault-configuration?ta
 
 ### Main points
 
-Edit Porject File and add 
+Edit Project File and add 
+
 `<DotNetCliToolReference Include="Microsoft.Extensions.SecretManager.Tools" Version="2.0.0" />`
 
 under 
+
 `<DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />`
+
+You can now right click on project and select manage user secrets.  These are either injected in authomatically if you inject the IConfiguration into the startup.cs or can be done manualy using the AddUserSecrets extension to the ConfigurationBuilder.
