@@ -8,6 +8,8 @@ https://docs.microsoft.com/en-us/aspnet/core/security/key-vault-configuration?ta
 
 ### Main points
 
+(This does not seem to be a requirement in VS2017)
+
 Edit Project File and add 
 
 `<DotNetCliToolReference Include="Microsoft.Extensions.SecretManager.Tools" Version="2.0.0" />`
