@@ -1,4 +1,3 @@
-
 # user-secrets
 
 ## Demo on user secrets
@@ -18,3 +17,4 @@ under
 `<DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />`
 
 You can now right click on project and select manage user secrets.  These are either injected in authomatically if you inject the IConfiguration into the startup.cs or can be done manualy using the AddUserSecrets extension to the ConfigurationBuilder.
+Once in the configration can be accessed as normal.
